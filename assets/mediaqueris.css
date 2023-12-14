@@ -1,0 +1,98 @@
+@media (max-width: 1200px) {
+  main {
+    width: 100%;
+  }
+
+  .card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  main {
+    width: 100%;
+  }
+
+  .nav_head {
+    gap: 20px;
+    padding: 0px 10px;
+  }
+
+  .nav_list {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 1.9rem;
+    /* width: 100%; */
+    text-align: center;
+  }
+
+  .hero p {
+    text-align: center;
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .hero_text {
+    align-items: center;
+  }
+
+  .guia {
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 50px 0px;
+  }
+  .nft_info {
+    max-width: 900;
+    flex-wrap: wrap;
+  }
+
+  .discover_items {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .discover_items p {
+    width: 60%;
+  }
+
+  .discover_info {
+    align-items: center;
+  }
+
+  .discover_info a {
+    font-size: 1.5rem;
+  }
+
+  .discover_img {
+    flex-direction: column;
+  }
+
+  .products_nft {
+    flex-wrap: wrap;
+    /* max-width: auto; */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-bars i {
+    display: flex;
+  }
+
+  .icon-bars {
+    order: 2;
+  }
+}

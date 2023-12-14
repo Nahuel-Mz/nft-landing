@@ -23,9 +23,9 @@
 }
 
 header {
+  background: linear-gradient(to bottom, #121e3c, var(--background));
   height: 65px;
   width: 100%;
-  background-color: var(--secondary);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +39,8 @@ header {
 
 .nav_head {
   display: flex;
-  margin: 0px 50px;
+  /* margin: 0px 50px; */
+  padding: 0px 50px;
   gap: 150px;
 }
 
@@ -62,7 +63,22 @@ header {
   width: 25px;
 }
 
+.icon-bars i {
+  font-size: 30px;
+  color: var(--bg-white);
+  display: none;
+}
+
+input {
+  display: none;
+}
+
 /* section hero */
+
+html,
+body {
+  width: 100%;
+}
 
 main {
   background-color: var(--background);
@@ -94,10 +110,19 @@ main {
 }
 
 .hero_text h1 {
-  color: var(--text-white);
+  color: transparent;
   font-size: 3rem;
   font-weight: 900;
   width: 105%;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(218, 0, 255, 1) 0%,
+    rgba(0, 249, 238, 1) 100%,
+    rgba(0, 242, 223, 1) 100%
+  );
+  background-clip: clip;
+  -webkit-background-clip: text;
 }
 
 .hero_text p {
@@ -220,6 +245,7 @@ main {
   gap: 20px;
   /* height: 100vh; */
   justify-content: center;
+  align-items: center;
   padding-top: 50px;
 }
 
@@ -349,7 +375,7 @@ p {
 /* products */
 .products_nft {
   /* max-width: 1800px; */
-  width: 1200px;
+  width: auto;
   flex-wrap: wrap;
   gap: 20px;
   display: flex;
