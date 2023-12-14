@@ -22,6 +22,10 @@
     display: none;
   }
 
+  .car {
+    width: 30px;
+  }
+
   .hero {
     flex-direction: column;
     align-items: center;
@@ -94,5 +98,11 @@
 
   .icon-bars {
     order: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
   }
 }
