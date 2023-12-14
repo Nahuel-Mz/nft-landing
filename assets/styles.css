@@ -60,7 +60,9 @@ header {
 }
 
 .card {
-  width: 25px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon-bars i {
@@ -292,10 +294,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 90px;
+  /* gap: 10px; */
   margin: 50px 500px;
   width: 100%;
-  flex-direction: column;
+  /* flex-direction: column; */
   text-align: center;
 }
 
@@ -303,9 +305,9 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   gap: 19px;
-  width: 100%;
+  max-width: 500px;
 }
 
 .discover_info a,
@@ -314,7 +316,7 @@ p {
 }
 
 .discover_info p {
-  width: 100%;
+  width: 70%;
   line-height: 30px;
   font-size: 1.1rem;
   color: var(--text-gray);
@@ -326,10 +328,10 @@ p {
 
 .discover_items h2 {
   color: var(--text-white);
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 2.2rem;
   font-weight: 800;
-  width: 90%;
+  width: 25%;
 }
 
 .discover_img {
