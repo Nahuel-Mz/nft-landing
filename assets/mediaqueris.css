@@ -137,3 +137,35 @@
     width: 100%;
   }
 }
+
+
+
+@media (max-width:576px) {
+  .hero_text h1 {
+    font-size: 2.2rem;
+    max-width: 400px;
+  }
+  
+  .hero_text p {
+    width: 60%;
+    line-height: 30px;
+  }
+
+  .guia {
+    font-size: 1.5rem; 
+    max-width: 600px;
+
+    text-align: center;
+  }
+
+  .footer_list {
+    flex-direction: column;
+    text-align: center ;
+  }
+
+  .nav_list {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+}
