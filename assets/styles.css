@@ -339,10 +339,12 @@ p {
 .discover_img {
   display: flex;
   gap: 13px;
+  /* max-width: 1200px; */
 }
 
 .discover_img img {
-  width: 350px;
+  min-width: 250px;
+  width: 300px;
 }
 
 /* section products */
@@ -382,7 +384,7 @@ p {
 
 /* products */
 .products_nft {
-  /* max-width: 1500px; */
+  max-width: 1200px;
   width: auto;
   flex-wrap: wrap;
   gap: 20px;
